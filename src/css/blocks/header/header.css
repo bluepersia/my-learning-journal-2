@@ -1,0 +1,17 @@
+.header,
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 0.26em;
+}
+
+.header__logo-text {
+  font-family: var(--font-roboto);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
