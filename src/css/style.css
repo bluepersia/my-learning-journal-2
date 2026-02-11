@@ -1,0 +1,19 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-source-sans-pro: "Source Sans 3", sans-serif;
+}
+
+body {
+  font-family: var(--font-source-sans-pro);
+}
+
+img {
+  display: block;
+}
