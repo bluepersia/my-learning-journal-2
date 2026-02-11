@@ -9,13 +9,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
 
     <!-- CSS-->
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/utilities.css" />
+
+    <link rel="stylesheet" href="src/css/blocks/header/header.css" />
+    <link rel="stylesheet" href="src/css/blocks/nav/nav.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__inner u-container">
+        <div class="header__logo">
+          <img src="assets/logo-icon.png" alt="" class="header__logo-icon" />
+          <p class="header__logo-text">My Learning Journal</p>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list u-list-reset">
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">About Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>

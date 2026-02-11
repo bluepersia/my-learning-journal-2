@@ -1,0 +1,20 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  column-gap: 3.7em;
+}
+
+.nav__link {
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(9, 9, 9, 1);
+  font-size: 0.75rem;
+}
+
+@media (min-width: 1200px) {
+  .nav__link {
+    font-size: 1rem;
+  }
+}
