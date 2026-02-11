@@ -3,3 +3,8 @@
   max-width: 979px;
   margin: 0 auto;
 }
+
+.u-list-reset {
+  list-style: none;
+  padding-left: 0;
+}
